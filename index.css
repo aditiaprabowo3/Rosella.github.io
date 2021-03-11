@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li {
+    padding: 0 21px;
+}
+ul li a{
+    font-weight: 600;
+    color: #000 !important;
+    opacity: 0.8;
+}
+ul li a:hover{
+    color: #d8221b !important;
+}
+.card-product {
+    margin: 20px 0;
+}
+footer ul{
+    padding-bottom: 15px;
+}
+footer ul li{
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 17px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+    .section-banner .text-content h1{
+        font-size: 45px;
+    }
+    .section-banner .img-content img{
+        width: 127%;
+        height: 127%;
+        margin-left: -100px;
+        margin-top: 60px;
+    }
+    .section-banner .sponsor img{
+        width: 25%;
+        height: 25%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+     }
+     .section-varius .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-contact .img-content img{
+        width: 100%;
+        height: 100%;
+    }
+    .section-contact .text-content h2{
+        font-size: 25px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-contact input{
+        padding: 20px 36px 20px 20px;
+    }
+ }
+ @media (min-width: 400px) { 
+    .section-banner .text-content h1{
+        font-size: 46px;
+    }
+    .section-banner .img-content img{
+        width: 127%;
+        height: 127%;
+        margin-left: -140px;
+        margin-top: 60px;
+    }
+    .section-banner .sponsor img{
+        width: 25%;
+        height: 25%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+     }
+     .section-varius .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-contact .img-content img{
+        width: 100%;
+        height: 100%;
+    }
+    .section-contact .text-content h2{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-contact input{
+        padding: 20px 55px 20px 20px;
+    }
+ }
+@media (min-width: 576px) { 
+    .section-banner .text-content h1{
+        font-size: 64px;
+    }
+    .section-banner .img-content img{
+        width: 110%;
+        height: 110%;
+        margin-left: -100px;
+        margin-top: 60px;
+    }
+    .section-banner .sponsor img{
+        width: 24%;
+        height: 24%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+     }
+     .section-varius .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-product .text-header .btn-1 {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .section-contact .img-content img{
+        width: 100%;
+        height: 100%;
+    }
+    .section-contact .text-content h2{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-contact input{
+        padding: 20px 155px 20px 20px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1{
+        font-size: 64px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .section-banner .sponsor img{
+        width: 16%;
+        height: 16%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+     }
+     .section-varius .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-product .text-header .btn-1 {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .section-contact .img-content img{
+        width: 100%;
+        height: 100%;
+    }
+    .section-contact .text-content h2{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-contact input{
+        padding: 20px 155px 20px 20px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1{
+        font-size: 64px;
+    }
+    .section-banner .img-content img{
+        width: 165%;
+        height: 430px;
+        margin-left: -300px;
+    }
+    .section-banner .sponsor img{
+        width: 16%;
+        height: 16%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .section-varius .img-content img{
+        width: 110%;
+        height: 450px;
+        margin-left: -30px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+    } 
+    .section-product .text-header .btn-1 {
+        margin-left: 280px;
+        margin-top: 100px;
+    }
+    .section-contact .img-content img{
+        width: 110%;
+        height:  440px;
+    }
+    .section-contact .text-content h2{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .section-contact input{
+        padding: 20px 155px 20px 20px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-size: 62px;
+    }
+    .section-banner .img-content img{
+        width: 160%;
+        height: 160%;
+        margin-left: -360px;
+    }
+    .section-banner .sponsor img{
+        width: 16%;
+        height: 16%;
+    }
+    .navbar-nav ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid #d8221b !important;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .section-varius .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -30px;
+    }
+    .section-varius .text-content{
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .section-product .text-header .btn-1{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .section-contact .img-content img{
+        width: 100%;
+        height:  430px;
+    }
+    .section-contact .text-content h2{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .section-contact .text-content{
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
