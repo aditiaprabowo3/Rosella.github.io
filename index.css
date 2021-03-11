@@ -80,6 +80,10 @@ footer ul li a{
     .section-contact input{
         padding: 20px 36px 20px 20px;
     }
+    .navbar .cart{
+        margin-left: 23px!important;
+        margin-top: 10px;
+    }
  }
  @media (min-width: 400px) { 
     .section-banner .text-content h1{
@@ -127,6 +131,10 @@ footer ul li a{
     }
     .section-contact input{
         padding: 20px 55px 20px 20px;
+    }
+    .navbar .cart{
+        margin-left: 20px!important;
+        margin-top: 10px;
     }
  }
 @media (min-width: 576px) { 
@@ -179,6 +187,10 @@ footer ul li a{
     }
     .section-contact input{
         padding: 20px 155px 20px 20px;
+    }
+    .navbar .cart{
+        margin-left: 20px!important;
+        margin-top: 10px;
     }
  }
 
@@ -234,6 +246,10 @@ footer ul li a{
     .section-contact input{
         padding: 20px 155px 20px 20px;
     }
+    .navbar .cart{
+        margin-left: 20px!important;
+        margin-top: 10px;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -287,6 +303,10 @@ footer ul li a{
     .section-contact input{
         padding: 20px 155px 20px 20px;
     }
+    .navbar .cart{
+        margin-left: 0px!important;
+        margin-top: 0px;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -336,6 +356,11 @@ footer ul li a{
     .section-contact .text-content{
         margin-top: 50px;
         margin-left: 40px;
+    }
+
+    .navbar .cart{
+        margin-left: auto!important;
+        margin-top: 0px;
     }
  }
 
